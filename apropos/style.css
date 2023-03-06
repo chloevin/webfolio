@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+}
+
+
+#about {
+    margin-top: 2%;
+}
+
+
+.footer {
+    background-color:#343A3F;
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.footer li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color:#63686C ;
+    font-weight: 600;
+}
+
+.footer i {
+font-size: 30px;
+margin-left: 5px;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 1%;
+    font-weight: 400;
+}
+
+
+
+
+#apropos {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.apropos .row img {
+    width: 15%;
+    float: right;
+}
+
+.row p {
+    float: left;
+}
+
+.row .name {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.row .text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#about .div-img-bg {
+    padding-bottom: 360px;
+    padding-left: 20px;
+    border: 20px solid #b8a07e;
+  }
+  
+  #about .div-img-bg .about-img img {
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 400px;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+  }
+  
+  #about .about-descr .separator {
+    max-width: 80%;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .about-descr h3 {
+    color: #343A3F;
+    font-weight: 600;
+  }
+
+  .atout {
+    text-align: center;
+    padding: 2%;
+  }
+
+  .atout .qualites h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #343A3F;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.atout .col-lg-4 {
+    margin-bottom: 3%;
+}
+
+
+.atout .col-lg-4 img {
+width: 15%;
+}
+
+.passions {
+    text-align: center;
+}
+
+.passions h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #343A3F;
+    margin-bottom: 2%;
+}
+
+.passions .col-lg-4 img {
+    width: 15%;
+}
+
+.passions .col-lg-4 {
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+/* RESPONSIVE  */
+  
+  /* Taille de l'écran inférieure ou égale à 768px */
+  @media screen and (max-width: 768px) {
+    #about {
+      margin-top: 12%;
+    }
+  
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
+
+  /* Pour des écrans plus petits */
+@media only screen and (max-width: 768px) {
+    .apropos .row img {
+        width: 10%;
+        float: none;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    .row p {
+        float: none;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    .row .name {
+        font-size: 28px;
+    }
+
+    .row .text {
+        font-size: 18px;
+    }
+
+    #about .div-img-bg {
+        padding-bottom: 24px;
+        padding-left: 0;
+        border: none;
+    }
+  
+    #about .div-img-bg .about-img img {
+        margin-top: 0;
+        margin-left: 0;
+        height: auto;
+    }
+  
+    #about .about-descr .separator {
+        max-width: 100%;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .about-descr h3 {
+        font-size: 26px;
+    }
+
+}
+
+.container3 {
+  position: fixed;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.container3 ul {
+display: inline-block;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.container3 li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.container3 p {
+  display: inline; 
+  margin-left: 1%;
+}
+
+
+.container3 .horloge{
+  display: inline; 
+}
+
+.container3 .heures{
+font-family: 'Orbitron', sans-serif;
+display: inline; 
+}
+
+.container3 .date{
+font-family: 'Nunito Sans', sans-serif;
+padding-top: 10px;
+display: inline; 
+}
+
+.container3 .info {
+color: #FFFFFF;
+text-align: right;
+margin-right: 0.4rem;
+padding-top: 0.4rem;
+}
+
+
+.container3 i {
+  margin-right: 8px;
+}
+
+.rectangle {
+  width  : 100%;
+  height : 26px;
+  background : #304661;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: normal;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+  padding-top: 0.2rem;
+}
+
+.accueil i{
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.accueil li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.accueil {
+  padding-top: 0.2rem;
+  margin-left: 10px;
+}
+
+.accueil li ul {
+  display:inline;
+}
+
+.container3 li {
+  list-style: none;
+}
+
+.accueil ul {
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+
+.info {
+color: #FFFFFF;
+text-align: right;
+margin-right: 0.4rem;
+display: inline; 
+}
+
+
+@media screen and (max-width: 767px) {
+  /* Ajoutez les styles pour les appareils mobiles ici */
+  .container3 {
+    font-size: 14px;
+  }
+
+  .info {
+    display: none;
+  }
+
+}
+
+
